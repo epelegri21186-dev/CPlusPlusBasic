@@ -14,14 +14,11 @@ int main() {
     int l1 = p1.length();
     int l2 = p2.length();
 
-    if (p1[l1-1] == p2[l2-1] &&
-        p1[l1-2] == p2[l2-2] &&
-        p1[l1-3] == p2[l2-3]) {
+    if (p1[l1-1] == p2[l2-1] && p1[l1-2] == p2[l2-2] && p1[l1-3] == p2[l2-3]) {
 
         cout << "Riman" << endl;
 
-    } else if (p1[l1-1] == p2[l2-1] &&
-               p1[l1-2] == p2[l2-2]) {
+    } else if (p1[l1-1] == p2[l2-1] && p1[l1-2] == p2[l2-2]) {
 
         cout << "Riman un poco" << endl;
 
